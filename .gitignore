@@ -1,0 +1,43 @@
+# Ignorar la carpeta data y .venv
+data/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de configuración y entornos virtuales
+.env
+*.env
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs y archivos de depuración
+*.log
+debug.log
+*.out
+
+# Archivos de Docker y despliegue
+docker-compose.override.yml
+
+# Bases de datos locales o temporales
+*.sqlite3
+*.db
+*.sql
